@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        header a{
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        main{
+            padding-bottom: 50px;
+        }
+        .login{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+        }
+        .login .detail{
+            padding-top: 20px;
+        }
+        .detail img{
+            height: 300px;
+        }
+        .submit{
+            width: 300px;
+            text-align: start;
+            box-shadow: 5px 5px 5px rgba(124, 124, 124, 0.621), -2px 0px 5px rgba(124, 124, 124, 0.621);
+            margin: 10px;
+            padding: 15px;
+            white-space: wrap;
+            background-color: #96a1a1;
+            background-image: linear-gradient(90deg, #f5f1f5 100%, #e6e2e6 0%);
+            border-radius: 20px;
+        }
+        .submit p{
+            font-size: small;
+            font-weight: 420;
+            color: rgb(55, 54, 54);
+            padding-bottom: 10px;
+        }
+        .submit input{
+            border: 1px solid rgba(55, 55, 55, 0.436);
+            color: rgba(49, 41, 41, 0.873);
+            width: 284px;
+            margin: 8px 0px;
+            border-radius: 5px;
+            height: 35px;
+            padding: 8px;
+        }
+        .submit input:hover{
+            border: 1px solid dodgerblue;
+        }
+        .submit a{
+            text-decoration: none;
+            color: blue;
+            font-size: small;
+            font-weight: 420;
+        }
+        
+        .submit button{
+            display: block;
+            width: 300px;
+            margin: 20px 0px;
+            padding: 10px 0px;
+            border-radius: 30px;
+            border: none;
+            background-color: rgb(0, 98, 255);
+            color: white;
+        }
+        .submit button:hover{
+            filter: opacity(70%);
+        }
+
+        .submit .icon{
+            margin-top: 0;
+            background-color: white;
+            color: #000;
+            border: 1px solid black;
+        }
+
+        .logo{
+            height: 140px;
+        }
+        /* footer */
+        footer{
+            display: flex;
+            margin: auto;
+            padding: 0 20px;
+        }
+        footer ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            overflow: auto;
+        }
+        footer ul img{
+            height: 60px;
+            filter: brightness(0%);
+        }
+        footer li{
+            flex: 0.2;
+            margin: 0px 20px;
+            list-style: none;
+            font-size: 10px;
+            white-space: nowrap;
+        }
+        footer select{
+            border: none;
+            background-color: #ffffff00;
+            font-size: 10px;
+            padding: 10px;
+            border-radius: 0px;
+            margin: 5px 0px;
+        }
+        @media(max-width:750px){
+            .login{
+                flex-direction: column;
+            }
+            .detail img{
+                display: none;
+            }
+            .submit button, .submit input{
+                width: 70vw;
+            }
+            .login{
+                align-items: center;
+            }
+            footer ul{
+                margin: 10px;
+            }
+            footer li{
+                white-space: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" target="_blank"><i class="fa-solid fa-arrow-left-long fa-beat-fade"></i> Home</a>
+        <H1>Port<span style="color: darkorange;">Folio.</span></H1>
+
+    </header>
+    <main>
+    <div class="login">
+        <div class="detail">
+            <h3>Hi! Let's have a chat</h3>
+            <p>I reply soon</p>
+            <img src="Designs70.png" alt="">
+        </div>
+        <div class="submit">
+            <h2>Contact Me</h2>
+
+            <input type="email" placeholder="Email or Phone">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Your Message Here" style="height: 80px;">
+            
+            <button>Submit</button>
+        </div>
+    </div>
+
+    </main>
+    
+    <footer>
+        <ul>
+            <li><img src="LOGO_STARKLORD-removebg-preview.png" alt="LOGO"></li>
+            <li> &#169;2023</li>
+            <li>User Agreement</li>
+            <li>Privacy Policy</li>
+            <li>Community Guideline</li>
+            <li>Copyright Policy</li>
+            <li>Send Feedback</li>
+            <li><select name="Langauge">
+                <option value="English">Langauge</option>
+                <option value="Bengali">ভাষা</option>
+                <option value="HIndi">भाषा</option>
+                <option value="French">langue</option>
+              </select>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
