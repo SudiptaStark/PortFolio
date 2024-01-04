@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css' integrity='sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q==' crossorigin='anonymous' /> -->
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
@@ -19,9 +20,14 @@
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
 		<li><a href="#services">Achievements</a></li>
-        <li><a href="login.html">Contact us</a></li>
+		<li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="login.html">Contact</a></li>
         </ul>
+        <div class="form-switch text-center my-5">
+            <input type="checkbox" id="mode" class="form-check-input">
+            <label for="mode" class="form-check-label"></label>
+        </div>
         <!--bars--------------->
         <div class="toggle"></div>
         
@@ -33,9 +39,11 @@
             <div class="left">
                 <p>Hello,</p>
 		        <p id="randomizer" data-value="I&#8217;M SUDIPTA">I&#8217;M SUDIPTA</p>
-			    <p>Freelancing with Developer <br>& Designer</p>
-                <button class="hire" style="border-radius: 8px; padding: 6px 15px;">Hire Me</button>
-                <button class="cv" style="border-radius: 8px; padding: 6px 15px; background-color: rgb(25, 25, 25); color: white;">Download CV</button>
+			    <p>Freelancing with Developing <br>& Designing</p>
+                <a href="https://www.youtube.com/@MrStarkLordStudio" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"><span class="icon-text">facebook</span></i></a>
+                <i class="fa-brands fa-instagram"><span class="icon-text">instagram</span></i>
+                <i class="fa-brands fa-linkedin-in"><span class="icon-text">linkedin</span></i>                
+                <i class="fa-brands fa-github"><span class="icon-text">github</span></i>
             </div>
             <div class="model">
                 <img src="sudipta.png">
@@ -89,6 +97,63 @@
             </div>
         </div>
 
+        <div class="skills" id="skills">
+            <div class="services-text ">
+                <p>My Skills</p>
+                <p>Programming and Editing Skills</p>
+            </div>
+
+            <div class="skill-content">
+                <div class="skills-left">
+                    <div class="skill">
+                        <b>HTML</b>
+                        <span class="percent">96%</span>
+                        <div class="progress">
+                          <span style="--width:96"></span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <b>CSS</b>
+                        <span class="percent">91%</span>
+                        <div class="progress">
+                          <span style="--width:91"></span>
+                        </div>
+                      </div>
+                      <div class="skill">
+                        <b>JavaScript</b>
+                        <span class="percent">85%</span>
+                        <div class="progress">
+                          <span style="--width:85"></span>
+                        </div>
+                      </div>
+                      <div class="skill">
+                        <b>C</b>
+                        <span class="percent">90%</span>
+                        <div class="progress">
+                          <span style="--width:90"></span>
+                        </div>
+                      </div>
+                      <div class="skill">
+                        <b>PYTHON</b>
+                        <span class="percent">89%</span>
+                        <div class="progress">
+                          <span style="--width:89"></span>
+                        </div>
+                      </div>
+                </div>
+                <div class="skills-right">
+                    <div>
+                        <div class="progressbar" style="--value:85"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png" alt=""></div>
+                    
+                        <div class="progressbar" style="--value:65"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/2101px-Adobe_After_Effects_CC_icon.svg.png" alt=""></div>
+                    </div>
+                    <div>
+                        <div class="progressbar" style="--value:74"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/2101px-Adobe_Premiere_Pro_CC_icon.svg.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="projects" id="projects">
             <div class="project-text">
                 <p>Creative Designs</p>
@@ -115,10 +180,10 @@
                     <a href="https://sudiptastark.github.io/codecraft_Sudipta.io/" target="_blank"><button>Open <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
                 </div>
                 <div class="grid-1">
-                    <img src="https://i.ytimg.com/vi/LX8_z1nvqk4/maxresdefault.jpg" alt="">
+                    <img src="calculator.jpg" alt="">
                     <h3>Simple Calculator</h3>
                     <p>Evaluate the basic operations on integers using my JavaScript Calculator</p>
-                    <a href="https://sudiptastark.github.io/QrGenerator/" target="_blank"><button>Open <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+                    <a href="https://sudiptastark.github.io/Universal-Calculator/" target="_blank"><button>Open <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
                 </div>
                 <div class="grid-1">
                     <img src="https://themewagon.com/wp-content/uploads/2020/02/solmusic-1.jpg" alt="">
@@ -131,7 +196,8 @@
 
         <div class="contact-me">
             <p>If You Have Any Project In Your Mind ?</p>
-            <button><a href="login.html">Contact Me</a></button>
+            <a href="login.html"><button>Contact Me <i class="fa fa-caret-right" aria-hidden="true"></i></button></a>
+            
         </div>
 
         <footer>
@@ -160,41 +226,96 @@
     </main>
 </body>
 <script type="text/javascript" src="JQuery.js"></script>
-	<script type="text/javascript">
+<script type="text/javascript">
 	$(document).ready(function(){
 		$('.toggle').click(function(){
 			$('.toggle').toggleClass('active')
 			$('nav').toggleClass('active')
 		})
 	})
+
+    // dark mode
+    const modeBtn = document.getElementById('mode');
+    home = document.querySelector('main');
+    home_text = document.querySelector('.home p');
+    about = document.querySelector('main .about');
+    services = document.getElementById('services');
+    services_text = document.querySelector('.services-text p:nth-child(1)');
+
+    modeBtn.onchange = (e) => {
+        if (modeBtn.checked === true) {
+            home.style.background = services.style.background = "#3c3c3d";
+            about.style.background = "#0a0a0a";
+            home_text.style.color = services_text.style.color = "white";
+
+            // document.documentElement.classList.remove("light")
+            // document.documentElement.classList.add("dark")
+            // window.localStorage.setItem('mode', 'dark');
+        } else {
+            home.style.removeProperty("background");
+            home_text.style.removeProperty("color");
+            about.style.removeProperty("background");
+            services.style.removeProperty("background");
+            services_text.style.removeProperty("color");
+
+            // document.documentElement.classList.remove("dark")
+            // document.documentElement.classList.add("light")
+            // window.localStorage.setItem('mode', 'light');
+        }
+    }
+    // Random text
     const letters = "abcdefghijklmnopqrstuvwxyz";
 
     let interval = null;
 
     document.getElementById("randomizer").onmouseover = event => {  
-    let iteration = 0;
-    
-    clearInterval(interval);
-    
-    interval = setInterval(() => {
-        event.target.innerText = event.target.innerText
-        .split("")
-        .map((letter, index) => {
-            if(index < iteration) {
-            return event.target.dataset.value[index];
-            }
+        let iteration = 0;
         
-            return letters[Math.floor(Math.random() * 26)]
-        })
-        .join("");
-        
-        if(iteration >= event.target.dataset.value.length){ 
         clearInterval(interval);
-        }
         
-        iteration += 1 / 3;
-    }, 20);
+        interval = setInterval(() => {
+            event.target.innerText = event.target.innerText
+            .split("")
+            .map((letter, index) => {
+                if(index < iteration) {
+                return event.target.dataset.value[index];
+                }
+            
+                return letters[Math.floor(Math.random() * 26)];
+            })
+            .join("");
+            
+            if(iteration >= event.target.dataset.value.length){ 
+            clearInterval(interval);
+            }
+            
+            iteration += 1 / 3;
+        }, 20);
     }
 
+    // About img fade-in-out
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting) {
+                entry.target.classList.add('about-animation');
+                return;
+            }
+            entry.target.classList.remove('about-animation');
+        })
+    })
+    observer.observe(document.querySelector('.about img'));
+
+    // progress Reload Scroll
+    const observer1 = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting) {
+                entry.target.classList.add('progress-span-animation');
+                return;
+            }
+            entry.target.classList.remove('progress-span-animation');
+        })
+    })
+    const progress = document.querySelectorAll('.skill .progress span');
+    progress.forEach((element) => observer1.observe(element));
 </script>
 </html>
