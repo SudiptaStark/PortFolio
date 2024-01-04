@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    	margin: 0;
+    	padding: 0;
 	scroll-behavior: smooth;
 }
 ul{
@@ -12,15 +12,15 @@ a{
 nav {
 	z-index: 10;
 	height: 55px;
-    display: flex;
-    justify-content: space-evenly;
+	display: flex;
+    	justify-content: space-evenly;
 	align-items: center;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	background-color: #fdffcd;
-    font-family: 'Trebuchet MS';
+    	font-family: 'Trebuchet MS';
 	font-size: 30px;
-    position: absolute;
-    top: 0; left: 0; right: 0;
+    	position: absolute;
+    	top: 0; left: 0; right: 0;
 }
 nav ul{
 	display: flex;
@@ -52,9 +52,9 @@ nav ul li a:hover{
 }
 
 main{
-    padding-top: 55px;
-    background-color: #96a1a1;
-    background-image: linear-gradient(90deg, #f5f1f5 100%, #e6e2e6 0%);
+	padding-top: 55px;
+    	background-color: #96a1a1;
+   	background-image: linear-gradient(90deg, #f5f1f5 100%, #e6e2e6 0%);
 }
 main .home{
     display: flex;
@@ -143,7 +143,7 @@ main .home .left{
 	line-height:0px;
 }
 main .home button{
-    width:130px;
+    	width:130px;
 	height:42px;
 	border-radius:10px;
 	font-family:calibri;
@@ -156,10 +156,10 @@ main .home button{
     height: 530px;
 }
 .about img{
-    height: 250px;
+    	height: 250px;
 	margin: 20px;
 	border-radius: 50%;
-    border: 5px double #e94822;
+    	border: 5px double #e94822;
 }
 .about-animation{
 	animation: fadeIn 5s ;
@@ -189,14 +189,14 @@ main .about p:nth-child(1){
 	font-family: myriad pro;
 	font-weight:bold;
 	font-size:23px;
-    margin-bottom: 5px;
+    	margin-bottom: 5px;
 }
 main .about p:nth-child(2){
 	color:wheat;
 	font-size:13px;
 	font-family: myriad pro;
 	font-weight:bold;
-    margin-bottom: 10px;
+    	margin-bottom: 10px;
 }
 main .about p:nth-child(3),main .about p:nth-child(5){
 	color:#9c9b9b;
